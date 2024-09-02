@@ -1,0 +1,208 @@
+@media only screen and (max-width: 1271px) {
+    .profilePhoto {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profileDetails {
+        width: 50vw;
+    }
+
+    #about {
+        padding-top: 60px;
+        text-align: center;
+        width: 70vw;
+        padding-left: 15vw;
+    }
+
+    .aboutSection {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .biocontaner {
+        gap: 12%;
+    }
+
+    .sec1 {
+        column-gap: 12px;
+    }
+
+    .sec2 {
+        column-gap: 32px;
+    }
+
+    /* Project details */
+    .page.active .projectImage {
+        width: 47%;
+       padding-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+
+    /* nav section */
+    .navItems {
+        padding-top: 40px;
+        padding-left: 30px;
+        position: fixed;
+        top: 53px;
+        background-color: rgb(31, 31, 31);
+        left: -100%;
+        width: 200px;
+        height: 100vh;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 9px black;
+        transition: left 0.1s ease-in;
+    }
+
+    .Active {
+        left: 0%;
+    }
+
+    .navItems ul {
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon:hover {
+        color: rgb(230, 95, 120);
+        transition: color 0.3s ease-in;
+    }
+
+    .navItems.navItems-Active {
+        left: 0;
+    }
+
+    /* hero section */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profilePhoto {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profileDetails {
+        text-align: center;
+        width: 70%;
+    }
+
+    .profileDetails .details {
+        padding-left: 10px;
+        text-align: start;
+    }
+
+    .name span {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    /* about us  */
+    #about{
+        height: 100vh;
+    }
+    .aboutSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .biocontaner {
+        width: 80%;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .biocontaner .sec1 {
+        column-gap: 55px;
+    }
+
+    .biocontaner .sec2 {
+        column-gap: 55px;
+    }
+
+    /* project section */
+    #project {
+        padding-top: 60px;
+        text-align: center;
+        /* height: 96vh; */
+    }
+
+    .projectBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70PX;
+    }
+
+    .container {
+        width: 80%;
+        height: auto;
+        border: 1px solid black;
+        box-shadow: 0px 0px 5px 0px black;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .page.active {
+        flex-direction: column;
+    }
+
+    .page.active .projectImage {
+        padding-top: 5%;
+        width: 90%;
+    }
+
+    .projectDetails {
+        width: 90%;
+        height: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5%;
+        box-sizing: border-box;
+    }
+
+    .projectDetails h1 {
+        padding-top: 10px;
+    }
+
+    .projectDetails p {
+        font-size: 14px;
+    }
+
+    .languageNmae {
+        font-size: 20px;
+    }
+
+    .languageNmae span:nth-child(1),
+    .languageNmae span:nth-child(2),
+    .languageNmae span:nth-child(3) {
+        width: 55px;
+    }
+  /* contact section */
+  #contact{
+    padding-top: 60px;
+  }
+}
