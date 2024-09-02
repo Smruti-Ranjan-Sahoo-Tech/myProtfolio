@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="photo">
+                <b>SRS</b>
+            </div>
+            <span class="menu-icon" onclick="toggleMenu()"> &#9776;</span>
+            <div class="navItems" id="navItems">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="image/1714037247315.jpg" alt="profilePhoto" class="profilePhoto">
+            <div class="profileDetails">
+                <div class="name">
+                    <span>Smruti</span>
+                    <span>Rajan</span>
+                    <span>Sahoo</span>
+                </div>
+                <div class="details">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti suscipit, magni error vel neque
+                    cumque fuga illum cupiditate harum eveniet.
+                </div>
+            </div>
+        </div>
+        <hr>
+        <section id="about">
+            <h1>About Me</h1>
+            <div><svg width="50px" height="7px" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="2.5" width="50" height="5" fill="rgb(230, 95, 120)" rx="2" ry="2" />
+                </svg>
+            </div>
+            <div class="aboutSection">
+                <img src="image/1714037247315.jpg" alt="about photo">
+                <div class="aboutDetails">
+                    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis assumenda illum sit,
+                        incidunt provident necessitatibus! Doloribus asperiores aperiam ducimus distinctio nam minima
+                        magnam soluta nihil ea, natus necessitatibus aut corporis omnis quidem beatae magni quaerat
+                        rerum molestias vitae! Facere temporibus quisquam nostrum saepe quae magnam.</div>
+                    <div class="biocontaner">
+                        <div class="sec1">
+                            <span>Email: </span>
+                            <span>johnsmith@mail.com</span>
+                            <span>Location: </span>
+                            <span>City, Country</span>
+                            <span>Age: </span>
+                            <span>30 </span>
+                        </div>
+                        <div class="sec2">
+                            <span>Nationality: </span><span>Nationality</span>
+                            <span>Education:</span><span> University Name</span>
+                            <span>Degree: </span><span>Bachelor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projectCount"></div>
+        </section>
+        <hr>
+        <!-- <section id="experience">    </section> -->
+        <section id="project">
+            <div class="projectHedingLine">
+                <h1>Project</h1>
+                <div><svg width="50px" height="7px" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="2.5" width="50" height="5" fill="rgb(230, 95, 120)" rx="2" ry="2" />
+                    </svg>
+                </div>
+            </div>
+            <div class="projectBox">
+                <div class="container">
+                    <div id="page-1" class="page active">
+                        <img class="projectImage" src="image/image.png">
+                        <div class="projectDetails">
+                            <h1>Project Name</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus, totam eum
+                                aspernatur dicta velit, eius cum laudantium facere beatae consectetur enim itaque
+                                debitis
+                                minus excepturi iste ullam sequi porro. Nihil voluptate ullam quidem sed. Veniam maiores
+                                placeat delectus blanditiis?</p>
+                            <div class="languageNmae">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-2" class="page">
+                        <img class="projectImage" src="/image.png">
+                        <div class="projectDetails">
+                            <h1>Project Name</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus, totam eum
+                                aspernatur dicta velit, eius cum laudantium facere beatae consectetur enim itaque
+                                debitis
+                                minus excepturi iste ullam sequi porro. Nihil voluptate ullam quidem sed. Veniam maiores
+                                placeat delectus blanditiis?</p>
+                            <div class="languageNmae">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-3" class="page">
+                        <img class="projectImage" src="image/image.png">
+                        <div class="projectDetails">
+                            <h1>Project Name</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus, totam eum
+                                aspernatur dicta velit, eius cum laudantium facere beatae consectetur enim itaque
+                                debitis
+                                minus excepturi iste ullam sequi porro. Nihil voluptate ullam quidem sed. Veniam maiores
+                                placeat delectus blanditiis?</p>
+                            <div class="languageNmae">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button id="prev" class="nav-btn">Previous</button>
+                    <button class="page-btn" data-page="1">1</button>
+                    <button class="page-btn" data-page="2">2</button>
+                    <button class="page-btn" data-page="3">3</button>
+                    <button id="next" class="nav-btn">Next</button>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <section id="contact">
+            <h1>Contact</h1>
+            <div><svg width="50px" height="7px" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="2.5" width="50" height="5" fill="rgb(230, 95, 120)" rx="2" ry="2" />
+                </svg>
+                <div class="contactDetails">
+                    <p>
+                        I am currently seeking employment, so if you have a job or project offer, or if you need more
+                        information, please do not hesitate to contact me.
+                    </p>
+                    <button>Write Message</button>
+                    <div class="contactImage">
+                        <ul>
+                            <li><a href="#"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.2928 20.7055V17.8355C15.3303 17.3587 15.2659 16.8793 15.1038 16.4293C14.9417 15.9793 14.6857 15.5689 14.3528 15.2255C17.4928 14.8755 20.7928 13.6855 20.7928 8.2255C20.7925 6.82933 20.2555 5.4867 19.2928 4.4755C19.7486 3.25401 19.7164 1.90385 19.2028 0.705504C19.2028 0.705504 18.0228 0.355504 15.2928 2.1855C13.0008 1.56432 10.5848 1.56432 8.2928 2.1855C5.5628 0.355504 4.3828 0.705504 4.3828 0.705504C3.86917 1.90385 3.83694 3.25401 4.2928 4.4755C3.32292 5.4942 2.78532 6.84897 2.7928 8.2555C2.7928 13.6755 6.09279 14.8655 9.23279 15.2555C8.90379 15.5955 8.65006 16.0009 8.4881 16.4454C8.32615 16.8899 8.2596 17.3636 8.2928 17.8355V20.7055"
+                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M8.29272 18.7053C5.29272 19.6785 2.79272 18.7053 1.29272 15.7053"
+                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="#"><svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.5131 9.09616V7.18395H8.02654C8.08645 8.45057 8.02654 20.6783 8.02654 20.6783H12.5131V13.1421C12.5131 12.738 12.5434 12.3363 12.6618 12.048C12.9866 11.2418 13.7238 10.4075 14.9645 10.4075C16.5876 10.4075 17.2368 11.6453 17.2368 13.459V20.6787H21.7227V12.9404C21.7227 8.7952 19.5095 6.86712 16.5569 6.86676C14.1738 6.86676 13.1086 8.17849 12.5131 9.09616ZM12.5131 9.09616C12.5045 9.11095 12.4926 9.12611 12.4839 9.14018H12.5131V9.09616ZM3.33174 0.678711C1.797 0.678711 0.792725 1.68551 0.792725 3.00951C0.792725 4.305 1.76741 5.34248 3.2722 5.34248H3.30251C4.86648 5.34248 5.84009 4.305 5.84009 3.00951C5.81086 1.68551 4.86685 0.678711 3.33174 0.678711ZM1.05868 20.6783H5.54454V7.18431H1.05868V20.6783Z"
+                                            stroke="white" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="#"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.7226 15.0266C13.1238 15.0266 15.0704 13.08 15.0704 10.6788C15.0704 8.27752 13.1238 6.33093 10.7226 6.33093C8.32134 6.33093 6.37476 8.27752 6.37476 10.6788C6.37476 13.08 8.32134 15.0266 10.7226 15.0266Z"
+                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M15.5053 0.678711H5.94005C3.05856 0.678711 0.722656 3.01462 0.722656 5.8961V15.4613C0.722656 18.3428 3.05856 20.6787 5.94005 20.6787H15.5053C18.3867 20.6787 20.7227 18.3428 20.7227 15.4613V5.8961C20.7227 3.01462 18.3867 0.678711 15.5053 0.678711Z"
+                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M16.3749 5.89611C16.8552 5.89611 17.2445 5.5068 17.2445 5.02655C17.2445 4.5463 16.8552 4.15698 16.3749 4.15698C15.8947 4.15698 15.5054 4.5463 15.5054 5.02655C15.5054 5.5068 15.8947 5.89611 16.3749 5.89611Z"
+                                            fill="white" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="#"><svg width="27" height="22" viewBox="0 0 27 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M25.7072 3.05291C24.7501 3.44866 23.7399 3.70122 22.7091 3.80246C23.7468 3.16575 24.5391 2.19736 24.9577 1.05415C23.9537 1.65172 22.8554 2.07415 21.7097 2.30338C21.2602 1.78557 20.7032 1.37202 20.0776 1.09154C19.4519 0.81106 18.7725 0.670408 18.0869 0.679385C17.4218 0.668508 16.7611 0.789416 16.143 1.03514C15.5248 1.28086 14.9614 1.64653 14.4852 2.11106C14.0091 2.57559 13.6296 3.12979 13.3687 3.7417C13.1078 4.35361 12.9706 5.01112 12.9651 5.6763C12.9447 6.05538 12.9869 6.43522 13.09 6.80059C11.1137 6.73863 9.17436 6.24861 7.40583 5.36434C5.6373 4.48008 4.08168 3.22263 2.84631 1.67876C2.32178 2.40319 2.05763 3.2837 2.09678 4.17723C2.10327 5.01368 2.31097 5.83629 2.70235 6.57556C3.09373 7.31484 3.65728 7.94906 4.3454 8.42465C3.55787 8.30791 2.79685 8.05423 2.09678 7.67511V7.80003C2.02732 8.94685 2.38439 10.0789 3.0993 10.9783C3.81421 11.8777 4.83646 12.4809 5.96939 12.672C5.52002 12.7813 5.05695 12.8234 4.59524 12.797C4.25727 12.8172 3.91846 12.7748 3.59586 12.672C3.91246 13.684 4.54339 14.5688 5.39704 15.1978C6.25068 15.8268 7.2826 16.1673 8.34296 16.1699C6.51642 17.5701 4.27328 18.3179 1.97189 18.2936C1.55159 18.314 1.13059 18.2719 0.722656 18.1686C3.34126 19.9169 6.44602 20.7915 9.59212 20.6671C18.9614 20.6671 23.2087 12.9218 23.2087 6.30092V5.6763C24.1952 4.96227 25.0421 4.07304 25.7072 3.05291Z"
+                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        <button id="StickyBtn">
+            <img src="image/icons8-up-32 (1).png" alt="">
+        </button>
+    </main>
+    <footer>&copy;Smruti Ranjan Sahoo</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
